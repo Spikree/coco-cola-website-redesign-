@@ -1,0 +1,17 @@
+video {
+    max-width: 1505px;
+}
+
+.black {
+    background-color: black;
+    height: 100px;
+    margin-top: 0px;
+}
+
+.video-main {
+    background-color: black;
+}
+
+/* .coke-image {
+    max-width: 1505px;
+} */
