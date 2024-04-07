@@ -10,11 +10,18 @@ video {
 
 .video-main {
     background-color: black;
+    padding: 0%;
+    margin: 0%;
 }
 
 .coke-image div img {
     margin-top: 0px;
     padding-top: 0px;
+}
+
+.coke-image {
+    padding: 0%;
+    margin: 0%;
 }
 
 .image-holder {
@@ -28,7 +35,7 @@ video {
     justify-content: center;
 }
 
-.btn {
+.btn-vid {
     height: 70px;
     width: 120px;
     border-radius: 15px;
@@ -39,7 +46,7 @@ video {
     border: 2px;
 }
 
-.btn:hover {
+.btn-vid:hover {
     background-color: black;
     color: white;
 }

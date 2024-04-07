@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 900;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.exp-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.exp-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.text {
+    max-width: 300px;
+    text-align: center;
+}
+
+.exp-image img {
+    border-radius: 10px;
+    width: 500px;
+}
+
+.btn button {
+    border-radius: 10px;
+    width: 250px;
+    padding: 5px;
+    background-color: white;
+    font-size: large;
+    font-weight: 500;
+}

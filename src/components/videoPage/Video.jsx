@@ -24,7 +24,7 @@ export default function Video() {
             </div>
 
             <div className="btn-div">
-            <button className='btn'>Buy now</button>
+            <button className='btn-vid'>Buy now</button>
             </div>
 
             </div>
