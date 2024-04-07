@@ -14,12 +14,20 @@ export default function Video() {
 
     return <>
         <div className='video-main'>
-            <video autoPlay loop onMouseOver={playVideo}>
+            <video autoPlay loop onMouseOver={playVideo} onMouseEnter={playVideo} controls>
                 <source src={video} type="video/webm" />
             </video>
-            {/* <div className="coke-image">
+            <div className='image-holder'>
+
+            <div className="coke-image">
                 <img src={coke} alt="" />
-            </div> */}
+            </div>
+
+            <div className="btn-div">
+            <button className='btn'>Buy now</button>
+            </div>
+
+            </div>
         </div>
     </>
 }

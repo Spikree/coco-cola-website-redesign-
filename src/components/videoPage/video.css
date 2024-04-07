@@ -12,6 +12,34 @@ video {
     background-color: black;
 }
 
-/* .coke-image {
-    max-width: 1505px;
-} */
+.coke-image div img {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.image-holder {
+    display: flex;
+    gap: 300px;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    height: 70px;
+    width: 120px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: large;
+    color: black;
+    background-color: white;
+    border: 2px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
