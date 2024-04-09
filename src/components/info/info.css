@@ -1,0 +1,12 @@
+.info-main {
+    /* max-width: 1200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.info-main p {
+    text-align: center;
+}
