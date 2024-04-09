@@ -14,6 +14,7 @@ function App() {
     <Experience/>
     <Sustanibility/>
     <Explore/>
+    <br />
     <Info/>
     <Footer/>
     </div>
