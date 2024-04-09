@@ -1,5 +1,7 @@
 import Experience from "./components/experience/Experience";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
+import Sustanibility from "./components/sustanibility/Sustanibility";
 import Video from "./components/videoPage/Video";
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <Header/>
     <Video/>
     <Experience/>
+    <Sustanibility/>
+    <Footer/>
     </div>
   </>
 }

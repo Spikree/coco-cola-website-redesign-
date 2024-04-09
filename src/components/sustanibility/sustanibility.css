@@ -1,0 +1,53 @@
+.card p {
+    text-align: left;
+}
+
+.card {
+    max-width: 540px;
+    border-color: black;
+    border-style: ridge ;
+    border-width: 1px;
+    border-radius: 20px;
+    max-height: 750px;
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 540px;
+    border-radius: 20px;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.sus-text {
+    margin: 20px;
+    padding: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover {
+    color: gray;
+}
+
+.sus-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.sus-cards {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+
